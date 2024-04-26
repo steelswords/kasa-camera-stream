@@ -1,11 +1,6 @@
-import os
-import sys
 import json
 import Wrapper
 import asyncio
-import requests
-import HealthChecker
-from concurrent.futures import ThreadPoolExecutor
 
 class Controller:
     def loadConfiguration(self, path):
